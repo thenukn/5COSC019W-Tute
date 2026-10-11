@@ -1,0 +1,21 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="Kydz2_SXmk15hb48HYaP">
+    <mxGraphModel dx="742" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iiWEmA5gmOb0l1KQvmMS" name="Page-2">
+    <mxGraphModel dx="732" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b8ytlTyEuLAyzpucvI13-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="&lt;table cellpadding=&quot;6&quot; cellspacing=&quot;0&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;font-family:Helvetica;font-size:14px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;height: 34px; text-align: center; font-weight: bold; border-bottom: 1px solid rgb(0, 0, 0);&quot;&gt;Product&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;height: 78px; text-align: left; vertical-align: top; border-bottom: 1px solid rgb(0, 0, 0);&quot;&gt;- id : Long&lt;br&gt;- name : String&lt;br&gt;- price : String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;height:126px;text-align:left;vertical-align:top;&quot;&gt;+ Product()&lt;br&gt;+ Product(id : Long, name : String, price : String)&lt;br&gt;+ getId() : Long&lt;br&gt;+ getName() : String&lt;br&gt;+ getPrice() : String&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="280" width="330" x="20" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
