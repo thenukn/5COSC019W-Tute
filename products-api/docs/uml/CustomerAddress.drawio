@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZS-Uc3Q4FKDO4ZcvCWWw">
+    <mxGraphModel dx="1411" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="380" width="430" x="100" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="customerName" parent="customer" style="swimlane;horizontal=1;startSize=34;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;align=center;verticalAlign=middle;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="58.05555555555556" width="429.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="customerAttributes" parent="customer" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fillColor=#ffffff;strokeColor=#6c8ebf;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- id : Long&lt;br&gt;- name : String&lt;br&gt;- email : String&lt;br&gt;- address : Address&lt;/font&gt;" vertex="1">
+          <mxGeometry height="131.94444444444446" width="429.99999999999994" y="29.99555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="customerOperations" parent="customer" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fillColor=#ffffff;strokeColor=#6c8ebf;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+ Customer()&lt;br&gt;+ Customer(id : Long, name : String, email : String, address : Address)&lt;br&gt;+ getId() : Long&lt;br&gt;+ getName() : String&lt;br&gt;+ getEmail() : String&lt;br&gt;+ getAddress() : Address&lt;/font&gt;" vertex="1">
+          <mxGeometry height="190" width="429.99999999999994" y="161.94" as="geometry" />
+        </mxCell>
+        <mxCell id="address" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="300" width="360" x="750" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="addressName" parent="address" style="swimlane;horizontal=1;startSize=34;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;align=center;verticalAlign=middle;html=1;" value="Address" vertex="1">
+          <mxGeometry height="55" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="addressAttributes" parent="address" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fillColor=#ffffff;strokeColor=#82b366;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- street : String&lt;br&gt;- city : String&lt;br&gt;- postcode : String&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="360" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="addressOperations" parent="address" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fillColor=#ffffff;strokeColor=#82b366;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+ Address()&lt;br&gt;+ Address(street : String, city : String, postcode : String)&lt;br&gt;+ getStreet() : String&lt;br&gt;+ getCity() : String&lt;br&gt;+ getPostcode() : String&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="360" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Qma1hyMGckqziLU2nxRH-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=-0.009;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" target="address" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="287" as="sourcePoint" />
+            <mxPoint x="740" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
