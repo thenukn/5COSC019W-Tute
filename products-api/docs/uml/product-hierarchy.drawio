@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="product-hierarchy" name="Product Hierarchy">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;overflow=hidden;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;verticalAlign=top;" value="&lt;table border=&#39;0&#39; style=&#39;width:100%; border-collapse:collapse; background-color:#ffffff; font-family:Helvetica,Arial,sans-serif; font-size:12px; color:#000000;&#39;&gt;&lt;tr&gt;&lt;td align=&#39;center&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; font-weight:bold; font-size:13px; color:#000000;&#39;&gt;Product&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; line-height:1.4; color:#000000;&#39;&gt;- id : Long&lt;br/&gt;- name : String&lt;br/&gt;- price : double&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; line-height:1.4; color:#000000;&#39;&gt;+ getName() : String&lt;br/&gt;+ getPrice() : double&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="156" width="220" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;overflow=hidden;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;verticalAlign=top;" value="&lt;table border=&#39;0&#39; style=&#39;width:100%; border-collapse:collapse; background-color:#ffffff; font-family:Helvetica,Arial,sans-serif; font-size:12px; color:#000000;&#39;&gt;&lt;tr&gt;&lt;td align=&#39;center&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; font-weight:bold; font-size:13px; color:#000000;&#39;&gt;DigitalProduct&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; line-height:1.4; color:#000000;&#39;&gt;- downloadUrl : String&lt;br/&gt;- fileSizeMB : double&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; line-height:1.4; color:#000000;&#39;&gt;+ getDownloadUrl() : String&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="116" width="220" x="120" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;overflow=hidden;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontColor=#000000;align=center;verticalAlign=top;" value="&lt;table border=&#39;0&#39; style=&#39;width:100%; border-collapse:collapse; background-color:#ffffff; font-family:Helvetica,Arial,sans-serif; font-size:12px; color:#000000;&#39;&gt;&lt;tr&gt;&lt;td align=&#39;center&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; font-weight:bold; font-size:13px; color:#000000;&#39;&gt;PhysicalProduct&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; border-bottom:1px solid #000000; line-height:1.4; color:#000000;&#39;&gt;- weightKg : double&lt;br/&gt;- dimensions : String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&#39;left&#39; style=&#39;padding:6px; line-height:1.4; color:#000000;&#39;&gt;+ getWeightKg() : double&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="116" width="240" x="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;strokeColor=light-dark(#666666,#FFFFFF);strokeWidth=2;fillColor=#f5f5f5;gradientColor=#b3b3b3;" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;strokeColor=light-dark(#666666,#FFFFFF);strokeWidth=2;fillColor=#f5f5f5;gradientColor=#b3b3b3;" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.314;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="478.0799999999999" y="294.424" as="sourcePoint" />
+            <mxPoint x="718.0799999999999" y="294.424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.314;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="480" y="341" as="sourcePoint" />
+            <mxPoint x="720" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.013;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="117.1400000000001" y="340.576" as="sourcePoint" />
+            <mxPoint x="340" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.013;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="118.57" y="294" as="sourcePoint" />
+            <mxPoint x="341.4299999999999" y="294.424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-12" edge="1" parent="1" source="2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="297.14" y="148" as="sourcePoint" />
+            <mxPoint x="519.9999999999999" y="148.42399999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnOgfqSEKRP3Ewq64f7o-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.992;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;startSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="300" y="85" as="sourcePoint" />
+            <mxPoint x="519.9999999999999" y="85.42399999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
