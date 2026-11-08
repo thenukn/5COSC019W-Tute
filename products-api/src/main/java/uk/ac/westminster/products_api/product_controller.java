@@ -31,7 +31,9 @@ public class product_controller {
     }
 
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
+    public Product addProduct(@RequestBody DigitalProduct product) {
+        //replaced parameter Product with DigitalProduct as Jackson cant initiate the abstract Product class directly from JSON
+
         return productService.addProduct(product);
     }
 
@@ -46,5 +48,9 @@ public class product_controller {
         return productService.findByName(name);
     }
 
+    @GetMapping("/products/summaries")
+    public List<String> getSummaries(){
+        return productService.getAllSummaries();
+    }
 
 }
